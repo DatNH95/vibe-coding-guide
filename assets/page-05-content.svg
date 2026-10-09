@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <g id="page-05-content" font-family="Arial, Helvetica, sans-serif">
+    <rect x="940" y="100" width="880" height="879" fill="#0076BE"/>
+    <g id="page-05-system">
+      <text x="100" y="220" font-size="56" fill="#0076BE">Khởi tạo Design System</text>
+      <text x="100" y="330" font-size="30" fill="#263C53">
+        <tspan x="100">Sau khi Codex render và scan tài liệu đầu vào,</tspan>
+        <tspan x="100" dy="46">yêu cầu Codex khởi tạo một Design System,</tspan>
+        <tspan x="100" dy="46">như khi triển khai thiết kế LDP trên Figma.</tspan>
+        <tspan x="100" dy="76">Đây là guideline giúp Codex hiểu:</tspan>
+        <tspan x="100" dy="46">style, mã màu, font chữ, quy tắc</tspan>
+        <tspan x="100" dy="46">và văn phong VnE.</tspan>
+        <tspan x="100" dy="76">Design System chứa các component chính</tspan>
+        <tspan x="100" dy="46">của toàn trang.</tspan>
+      </text>
+      <rect x="100" y="790" width="780" height="116" rx="12" fill="#F3F7FC"/>
+      <text x="130" y="839" font-size="30" fill="#0076BE">
+        <tspan x="130">Khai báo một lần,</tspan>
+        <tspan x="130" dy="42">dùng chung cho toàn bộ dự án.</tspan>
+      </text>
+    </g>
+    <g id="page-05-tip" fill="white">
+      <text x="1020" y="220" font-size="64" font-weight="400">Tip</text>
+      <text x="1020" y="330" font-size="30">
+        <tspan x="1020">Header và Footer dùng chung template VnE.</tspan>
+        <tspan x="1020" dy="46">Vào Figma, xuất file SVG và đặt tên</tspan>
+        <tspan x="1020" dy="46">tương ứng:</tspan>
+      </text>
+      <text x="1020" y="518" font-size="32">
+        <tspan x="1020">header/pc · header/mobile</tspan>
+        <tspan x="1020" dy="52">footer/pc · footer/mobile</tspan>
+      </text>
+      <text x="1020" y="676" font-size="30">
+        <tspan x="1020">Copy vào folder publsh/asset/...</tspan>
+        <tspan x="1020" dy="76">Để Codex đọc file thiết kế và dựng lại</tspan>
+        <tspan x="1020" dy="46">cấu trúc SVG thành HTML.</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

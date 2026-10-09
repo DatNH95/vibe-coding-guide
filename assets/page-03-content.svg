@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <g id="page-03-content" font-family="Arial, Helvetica, sans-serif">
+    <g id="page-03-title"><text x="100" y="230" font-size="64" fill="#0076BE">Quy trình bắt đầu dự án Landing page</text></g>
+    <g fill="none" stroke="#0076BE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M653 590H676L668 582M676 590L668 598"/><path d="M1243 590H1266L1258 582M1266 590L1258 598"/>
+    </g>
+    <g id="page-03-step-1">
+      <rect x="100" y="350" width="540" height="548" rx="16" fill="#F3F7FC"/>
+      <g id="page-03-icon-1">
+        <rect x="140" y="392" width="80" height="80" rx="20" fill="#0076BE"/>
+        <text x="180" y="444" text-anchor="middle" font-size="34" font-weight="700" fill="white">01</text>
+        <path d="M550 418H568L576 428H598V459H550Z" fill="none" stroke="#0076BE" stroke-width="3" stroke-linejoin="round"/>
+      </g>
+      <text x="140" y="548" font-size="36" font-weight="700" fill="#263C53"><tspan x="140">Tạo repo GitHub</tspan><tspan x="140" dy="48">và đồng bộ folder</tspan></text>
+      <text x="140" y="667" font-size="27" fill="#6B6B6B">
+        <tspan x="140">Tạo repo để chứa folder dự án.</tspan><tspan x="140" dy="44">Đồng bộ bằng GitHub Desktop.</tspan>
+      </text>
+    </g>
+    <g id="page-03-step-2">
+      <rect x="690" y="350" width="540" height="548" rx="16" fill="#F3F7FC"/>
+      <g id="page-03-icon-2">
+        <rect x="730" y="392" width="80" height="80" rx="20" fill="#0076BE"/>
+        <text x="770" y="444" text-anchor="middle" font-size="34" font-weight="700" fill="white">02</text>
+        <g fill="none" stroke="#0076BE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><rect x="1138" y="418" width="50" height="36" rx="4"/><path d="M1158 462H1170M1164 454V462M1156 429L1150 436L1156 443M1170 429L1176 436L1170 443"/></g>
+      </g>
+      <text x="730" y="548" font-size="36" font-weight="700" fill="#263C53"><tspan x="730">Mở folder dự án</tspan><tspan x="730" dy="48">trong Codex</tspan></text>
+      <text x="730" y="667" font-size="27" fill="#6B6B6B">
+        <tspan x="730">Truy cập folder đã tạo sẵn</tspan><tspan x="730" dy="44">từ GitHub Desktop.</tspan>
+      </text>
+    </g>
+    <g id="page-03-step-3">
+      <rect x="1280" y="350" width="540" height="548" rx="16" fill="#0076BE"/>
+      <g id="page-03-icon-3">
+        <rect x="1320" y="392" width="80" height="80" rx="20" fill="white"/>
+        <text x="1360" y="444" text-anchor="middle" font-size="34" font-weight="700" fill="#0076BE">03</text>
+        <g fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M1734 415H1762L1778 431V463H1734ZM1762 415V431H1778M1746 442H1766M1746 452H1760"/></g>
+      </g>
+      <text x="1320" y="548" font-size="36" font-weight="700" fill="white"><tspan x="1320">Ra câu lệnh</tspan><tspan x="1320" dy="48">bắt đầu dự án</tspan></text>
+      <text x="1320" y="667" font-size="27" fill="white"><tspan x="1320">Tạo câu lệnh dự án.</tspan><tspan x="1320" dy="60">Yêu cầu bắt buộc Codex</tspan><tspan x="1320" dy="44">tự khởi sinh file</tspan></text>
+      <text x="1320" y="841" font-size="44" font-weight="700" fill="white">AGENTS.md</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f1f3f5">
+  <title>Vibe coding — Travel Awards 2026</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="assets/slides.js" defer></script>
+  <script src="slider.js" defer></script>
+</head>
+<body>
+  <main class="presentation" id="presentation" aria-label="Travel Awards 2026">
+    <div class="stage" id="stage" role="region" aria-roledescription="carousel" aria-label="Các slide trình chiếu" tabindex="0">
+      <img class="fallback" src="Silder%201.svg" alt="Vibe coding. Travel Awards 2026. Phiên bản thử nghiệm. CODEX. Dấu ấn Tiên phong — The First Signature.">
+    </div>
+    <nav class="controls" aria-label="Điều khiển trình chiếu" hidden>
+      <div class="navigation">
+        <button id="previous" type="button" aria-label="Previous — Slide trước" title="Slide trước (←)" disabled><span aria-hidden="true">←</span><span class="button-label">Previous</span></button>
+        <span class="counter" id="counter">01 / 01</span>
+        <button id="next" type="button" aria-label="Next — Slide tiếp theo" title="Slide tiếp theo (→)" disabled><span class="button-label">Next</span><span aria-hidden="true">→</span></button>
+      </div>
+      <div class="progress-group">
+        <div class="dots" id="dots" aria-label="Chọn slide"></div>
+        <progress id="progress" value="1" max="1" aria-label="Tiến trình trình chiếu"></progress>
+      </div>
+      <div class="actions">
+        <button id="replay" type="button" title="Phát lại animation (R)" aria-label="Phát lại animation"><span aria-hidden="true">↻</span><span class="button-label">Phát lại</span></button>
+        <button id="fullscreen" type="button" title="Toàn màn hình (F)" aria-label="Toàn màn hình"><span aria-hidden="true">⛶</span></button>
+      </div>
+    </nav>
+    <p class="sr-only" id="announcement" role="status" aria-live="polite" aria-atomic="true"></p>
+  </main>
+</body>
+</html>
