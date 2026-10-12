@@ -8,7 +8,7 @@
 - SVG được cung cấp là visual source of truth. Giữ nguyên SVG gốc, không tự đổi nội dung, typography, màu sắc hoặc đồ họa. Khi được yêu cầu sửa nội dung của page, chỉnh bản trình chiếu/asset phái sinh và giữ bản nguồn gốc.
 - `assets/slides.js` là asset được sinh bởi `node scripts/build-assets.cjs`; chỉnh nguồn sinh rồi chạy lại, không chỉ chỉnh file sinh vì sẽ bị ghi đè.
 - Kiểm tra navigation, animation và khung desktop trên localhost sau thay đổi ảnh hưởng giao diện.
-- Giữ header “VIBE CODING LANDING PAGE” và footer “TRAVEL AWARDS 2026” khi thêm page. Số footer là page hiện tại hai chữ số / tổng tối thiểu 10; khi có hơn 10 page, tổng là số page thực tế. Chỉ thêm page có nội dung được cung cấp, không tạo page rỗng để đủ 10.
+- Giữ header “VIBE CODING LANDING PAGE” và footer “TRAVEL AWARDS 2026” khi thêm page. Số footer là page hiện tại hai chữ số / tổng tối thiểu 20; khi có hơn 20 page, tổng là số page thực tế. Chỉ thêm page có nội dung được cung cấp, không tạo page rỗng để đủ 20. Không giới hạn navigation ở 10 hoặc 20 page.
 
 ## Khi người dùng nói "Đẩy lên GitHub", "đẩy lên" hoặc "Tạo commit và đẩy lên"
 

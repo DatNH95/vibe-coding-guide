@@ -20,7 +20,7 @@ HTML/CSS/JavaScript thuần, không có back-end hay thư viện ngoài. Dành c
 - `assets/page-02.svg`: PAGE 02 hoàn chỉnh sinh tự động, ghép nội dung mới với header/footer của SVG gốc.
 - `scripts/build-assets.cjs`: khai báo slide/layer và sinh lại asset bằng `node scripts/build-assets.cjs`.
 
-Project hiện có **năm page có nội dung**. Tổng trình chiếu tối thiểu là **10** theo yêu cầu: footer và thanh điều khiển dùng `01/10`, `02/10`; khi thêm hơn 10 page thì tổng tự tăng theo số page thực tế. Previous/Next và dots chỉ điều hướng tới page đã có nội dung, không tạo page rỗng. SVG gốc page 01 giữ nguyên; số footer được cập nhật trong DOM phái sinh.
+Project hiện có **14 page có nội dung**. Tổng trình chiếu tối thiểu là **20** theo yêu cầu: footer và thanh điều khiển dùng `01/20`, `02/20`; khi thêm hơn 20 page thì tổng tự tăng theo số page thực tế. Previous/Next chỉ điều hướng tới page đã có nội dung, không tạo page rỗng. SVG gốc page 01 giữ nguyên; số footer được cập nhật trong DOM phái sinh.
 
 Page được đánh số `01`, `02`, `03`… theo thứ tự trong danh sách slide. Khi người dùng nói “01”, hiểu là sửa page 01. Xem `PAGES.md` để tìm file của từng page; giữ thứ tự và cập nhật bảng này khi bổ sung page.
 
@@ -36,4 +36,4 @@ Thêm một object vào mảng `slides` trong `scripts/build-assets.cjs`, dùng 
 
 ## GitHub → Vercel
 
-Đẩy các file lên GitHub rồi import repository trong Vercel. Chọn **Framework Preset: Other**, để trống **Build Command**, và dùng thư mục gốc làm **Output Directory** (`.` nếu được yêu cầu). Asset đã được tạo và lưu trong repo nên không cần npm install/build. Có thể dùng GitHub Pages với thư mục root; các đường dẫn đều tương đối.
+Đẩy các file lên GitHub rồi import repository trong Vercel, kết nối production với branch `main`. `vercel.json` chọn **Framework Preset: Other**, chạy **Build Command: node scripts/build-assets.cjs**, bỏ qua cài dependency và dùng thư mục gốc làm **Output Directory** (`.`). Mỗi deployment tạo lại asset từ nguồn; trình duyệt kiểm tra lại cache để nhận bản mới. Asset cũng được lưu trong repo nên có thể dùng GitHub Pages với thư mục root; các đường dẫn đều tương đối.

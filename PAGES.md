@@ -31,4 +31,4 @@ Khi người dùng gọi một số như “01”, xử lý đúng page trong b�
 
 | 14 | Thank You | Bố cục page 10, header/footer page 01 | `assets/page-14-content.svg`; object thứ mười bốn trong `slides` |
 
-Page 15… sẽ được thêm khi có nội dung tương ứng. Footer và thanh điều khiển dùng `01/14`, `02/14`…; tổng tự tăng bằng số page thực tế. Navigation chỉ đi tới page đã có nội dung. SVG gốc không thay đổi.
+Page 15… sẽ được thêm khi có nội dung tương ứng. Footer và thanh điều khiển dùng `01/20`, `02/20`…; tổng tối thiểu 20 và tự tăng bằng số page thực tế khi vượt 20. Hiện có 14 page có nội dung; navigation chỉ đi tới các page này và không giới hạn số page thêm sau. SVG gốc không thay đổi.
