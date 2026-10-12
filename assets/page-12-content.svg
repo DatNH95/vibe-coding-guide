@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs><radialGradient id="page-12-aura"><stop stop-color="#29BCE0" stop-opacity=".3"/><stop offset=".5" stop-color="#0076BE" stop-opacity=".12"/><stop offset="1" stop-color="#0076BE" stop-opacity="0"/></radialGradient></defs>
+  <g pointer-events="none" aria-hidden="true"><g transform="translate(340 540)"><ellipse class="page-07-aura" rx="310" ry="370" fill="url(#page-12-aura)"/><ellipse class="page-07-aura page-07-aura-late" rx="310" ry="370" fill="url(#page-12-aura)"/></g></g>
+  <g id="page-12-content" font-family="Arial, Helvetica, sans-serif">
+    <text x="140" y="285" font-size="42" fill="#0076BE"><tspan x="140">AI ứng dụng</tspan><tspan x="140" dy="56">thực tế vào</tspan><tspan x="140" dy="56">thiết kế nội thất</tspan><tspan x="140" dy="56">giúp:</tspan></text>
+    <g fill="#0076BE"><circle cx="150" cy="518" r="5"/><circle cx="150" cy="628" r="5"/><circle cx="150" cy="738" r="5"/></g>
+    <g font-size="34" fill="#263C53"><text x="176" y="529">Dựng phối cảnh 3D</text><text x="176" y="639"><tspan x="176">Render thông số</tspan><tspan x="176" dy="46">kỹ thuật cho thợ</tspan></text><text x="176" y="749"><tspan x="176">Tiết kiệm tiền công</tspan><tspan x="176" dy="46">thiết kế 3D</tspan></text></g>
+  </g>
+  <g id="page-12-image"><image x="634" y="100" width="1172" height="879" preserveAspectRatio="xMidYMid meet" href="__PAGE12_IMAGE__"/></g>
+</svg>

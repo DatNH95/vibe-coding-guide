@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs><radialGradient id="page-13-aura"><stop stop-color="#29BCE0" stop-opacity=".3"/><stop offset=".5" stop-color="#0076BE" stop-opacity=".12"/><stop offset="1" stop-color="#0076BE" stop-opacity="0"/></radialGradient></defs>
+  <g pointer-events="none" aria-hidden="true"><g transform="translate(340 540)"><ellipse class="page-07-aura" rx="310" ry="370" fill="url(#page-13-aura)"/><ellipse class="page-07-aura page-07-aura-late" rx="310" ry="370" fill="url(#page-13-aura)"/></g></g>
+  <g id="page-13-content" font-family="Arial, Helvetica, sans-serif"><text x="140" y="455" font-size="36" fill="#0076BE"><tspan x="140">Sản phẩm thực tế</tspan><tspan x="140" dy="52">dựa trên bản vẽ</tspan><tspan x="140" dy="52">kỹ thuật của AI.</tspan></text></g>
+  <g id="page-13-image"><image x="634" y="100" width="1172" height="879" preserveAspectRatio="xMidYMid meet" href="__PAGE13_IMAGE__"/></g>
+</svg>

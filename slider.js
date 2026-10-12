@@ -6,7 +6,6 @@
   const next = document.getElementById('next');
   const replay = document.getElementById('replay');
   const fullscreen = document.getElementById('fullscreen');
-  const dots = document.getElementById('dots');
   const progress = document.getElementById('progress');
   const announcement = document.getElementById('announcement');
   const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)');
@@ -52,7 +51,7 @@
       originalNodes[source.footer.node].replaceWith(footer);
     }
     const motionLayers = (source.motionGroups || []).map((id, order) => ({
-      element: svg.querySelector(`[id="${id}"]`), delay: order * 90, y: 14, duration: 560
+      element: svg.querySelector(`[id="${id}"]`), delay: order * (source.motionGroupDelay || 90), y: 14, duration: source.motionGroupDuration || 560
     })).filter(layer => layer.element);
     // Separate SVG exports can reuse definition IDs. Scope references per slide.
     const ids = new Map([...svg.querySelectorAll('[id]')].map(node => [node.id, `s${index}-${node.id}`]));
@@ -84,13 +83,7 @@
     section.setAttribute('aria-label', `${index + 1} / ${totalPages}: ${source.title}`);
     section.append(svg);
     stage.append(section);
-    const dot = document.createElement('button');
-    dot.type = 'button';
-    dot.className = 'dot';
-    dot.setAttribute('aria-label', `Đến slide ${index + 1}: ${source.title}`);
-    dot.addEventListener('click', () => goTo(index));
-    dots.append(dot);
-    return { section, layers, dot };
+    return { section, layers };
   });
   if (!slides.length) return; // Keep the original image if the asset script is missing.
   stage.querySelector('.fallback').remove();
@@ -101,10 +94,6 @@
     previous.disabled = current === 0 || busy;
     next.disabled = current === slides.length - 1 || busy;
     replay.disabled = busy;
-    for (const [index, slide] of slides.entries()) {
-      slide.dot.setAttribute('aria-current', String(index === current));
-      slide.dot.disabled = busy;
-    }
     document.getElementById('counter').textContent = `${String(current + 1).padStart(2, '0')} / ${String(totalPages).padStart(2, '0')}`;
     progress.value = current + 1;
     announcement.textContent = `Slide ${current + 1} / ${totalPages}: ${sources[current].title}`;

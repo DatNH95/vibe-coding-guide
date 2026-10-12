@@ -21,4 +21,14 @@ Khi người dùng gọi một số như “01”, xử lý đúng page trong b�
 
 | 09 | GitHub → Vercel — Đẩy code và kiểm tra chéo | Header/footer page 01 | `assets/page-09-content.svg`; object thứ chín trong `slides` |
 
-Page 10… sẽ được thêm khi có nội dung tương ứng. Footer và thanh điều khiển dùng `01/10`, `02/10`…; tổng tối thiểu 10, tự tăng bằng số page thực tế khi vượt 10. Navigation chỉ đi tới page đã có nội dung. SVG gốc không thay đổi.
+| 10 | AI còn có thể làm gì ngoài công việc? | Bố cục page 07, header/footer page 01 | `assets/page-10-content.svg`; object thứ mười trong `slides` |
+
+| 11 | Thiết kế nội thất — Ảnh số 2 | `assets/2.jpg`, header/footer page 01 | `assets/page-11-content.svg`; object thứ mười một trong `slides` |
+
+| 12 | Thiết kế góc làm việc — Ảnh số 1 | `assets/1.png`, header/footer page 01 | `assets/page-12-content.svg`; object thứ mười hai trong `slides` |
+
+| 13 | Góc làm việc — Ảnh số 3 | `assets/3.JPG`, header/footer page 01 | `assets/page-13-content.svg`; object thứ mười ba trong `slides` |
+
+| 14 | Thank You | Bố cục page 10, header/footer page 01 | `assets/page-14-content.svg`; object thứ mười bốn trong `slides` |
+
+Page 15… sẽ được thêm khi có nội dung tương ứng. Footer và thanh điều khiển dùng `01/14`, `02/14`…; tổng tự tăng bằng số page thực tế. Navigation chỉ đi tới page đã có nội dung. SVG gốc không thay đổi.
