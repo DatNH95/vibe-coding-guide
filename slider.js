@@ -22,6 +22,22 @@
     if (parsed.querySelector('parsererror')) throw new Error('SVG không hợp lệ: ' + source.title);
     const svg = document.importNode(parsed.documentElement, true);
     const originalNodes = [...svg.children];
+    // Shared background treatment for large blue boxes; small icons stay flat.
+    if (window.BLUE_BACKGROUND_SVG) {
+      [...svg.querySelectorAll('rect[fill="#0076BE"]')].forEach((rect, boxIndex) => {
+        const width = Number(rect.getAttribute('width'));
+        const height = Number(rect.getAttribute('height'));
+        if (width < 200 || height < 100) return;
+        const effectSource = window.BLUE_BACKGROUND_SVG.replaceAll('page-02-', `blue-${boxIndex}-`);
+        const effect = document.importNode(new DOMParser().parseFromString(effectSource, 'image/svg+xml').documentElement, true);
+        for (const key of ['x', 'y', 'width', 'height']) effect.setAttribute(key, rect.getAttribute(key) || '0');
+        effect.setAttribute('overflow', 'hidden');
+        effect.setAttribute('pointer-events', 'none');
+        effect.setAttribute('aria-hidden', 'true');
+        if (rect.hasAttribute('rx')) effect.style.borderRadius = rect.getAttribute('rx') + 'px';
+        rect.after(effect);
+      });
+    }
     // Replace only the requested page numbering in the derived DOM.
     if (source.footer) {
       const footer = document.createElementNS(ns, 'text');

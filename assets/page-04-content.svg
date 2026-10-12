@@ -3,41 +3,34 @@
     <rect x="940" y="100" width="880" height="879" fill="#0076BE"/>
     <g id="page-04-guideline">
       <text x="100" y="220" font-size="56" fill="#0076BE">Để Codex không đi “lạc”</text>
-      <text x="100" y="302" font-size="28" fill="#263C53">
-        <tspan x="100">Sử dụng câu lệnh tham khảo</tspan>
-        <tspan x="100" dy="42">để bắt đầu dự án</tspan>
+      <text x="100" y="302" font-size="32" fill="#263C53">Vì sao cần file AGENTS.md?</text>
+      <rect x="100" y="360" width="780" height="475" rx="12" fill="#F3F7FC"/>
+      <rect x="100" y="372" width="4" height="451" rx="2" fill="#0076BE"/>
+      <text x="132" y="410" font-size="28" fill="#263C53">
+        <tspan x="132">AGENTS.md là file hướng dẫn làm việc</tspan>
+        <tspan x="132" dy="40">mà Codex đọc trước khi bắt đầu.</tspan>
       </text>
-      <rect x="100" y="390" width="780" height="430" rx="12" fill="#F3F7FC"/>
-      <rect x="100" y="402" width="4" height="406" rx="2" fill="#0076BE"/>
-      <text x="132" y="438" font-size="25" fill="#263C53">
-        <tspan x="132">Bạn là 1 chuyên gia Product Designer</tspan>
-        <tspan x="132" dy="42">chuyên nghiệp, hãy sử dụng suy luận và</tspan>
-        <tspan x="132" dy="42">kiến thức của mình có được để xây dựng</tspan>
-        <tspan x="132" dy="42">1 sản phẩm dạng landing page bình chọn</tspan>
-        <tspan x="132" dy="42">dựa trên từng yêu cầu mà tôi đưa ra để</tspan>
-        <tspan x="132" dy="42">từ đó tối ưu và xây dựng prompt</tspan>
-        <tspan x="132" dy="42">cho từng phase của dự án.</tspan>
-        <tspan x="132" dy="42">Quy ước prompt sẽ là 001 - Tương ứng</tspan>
-        <tspan x="132" dy="42">với phase 1.</tspan>
-      </text>
-      <text x="100" y="866" font-size="26" fill="#0076BE">
-        <tspan x="100">— Dán link google sheet (file yêu cầu từ event)</tspan>
-        <tspan x="100" dy="48">— Dán link key-visual (nếu có) + tự thiết kế</tspan>
+      <text x="132" y="510" font-size="28" fill="#0076BE">01 — Thống nhất quy tắc</text>
+      <text x="132" y="552" font-size="26" fill="#263C53">Cấu trúc, cách viết code và quy ước của dự án.</text>
+      <text x="132" y="620" font-size="28" fill="#0076BE">02 — Giữ đúng phạm vi</text>
+      <text x="132" y="662" font-size="26" fill="#263C53">Nêu rõ việc cần làm và giới hạn cần tuân thủ.</text>
+      <text x="132" y="730" font-size="28" fill="#0076BE">03 — Làm việc nhất quán</text>
+      <text x="132" y="772" font-size="26" fill="#263C53">Dùng chung hướng dẫn, giảm việc nhắc lại.</text>
+      <text x="100" y="888" font-size="26" fill="#263C53">
+        <tspan x="100">Đặt file tại thư mục gốc của dự án.</tspan>
+        <tspan x="100" dy="40">Viết rõ, ngắn gọn và cập nhật khi quy tắc thay đổi.</tspan>
       </text>
     </g>
     <g id="page-04-tip" fill="white">
-      <text x="1020" y="230" font-size="64" font-weight="400">Tip nhỏ</text>
-      <text x="1020" y="340" font-size="30">
-        <tspan x="1020">Mỗi 1 dự án chúng ta cần tạo 1 đoạn</tspan>
-        <tspan x="1020" dy="46">chát mới thuộc folder của dự án đó</tspan>
+      <text x="1020" y="230" font-size="46" font-weight="400">
+        <tspan x="1020">Từ quan sát thành người</tspan>
+        <tspan x="1020" dy="62">kiểm duyệt và định hướng.</tspan>
       </text>
-      <text x="1020" y="463" font-size="44" font-weight="400">Trợ lý [Tên dự án]</text>
-      <text x="1020" y="572" font-size="30">
-        <tspan x="1020">Trợ lý kết nối với Codex Work,</tspan>
-        <tspan x="1020" dy="46">hỗ trợ viết prompt và giải đáp</tspan>
-        <tspan x="1020" dy="46">những vấn đề bạn chưa rõ.</tspan>
-        <tspan x="1020" dy="76">Chỉ xử lý yêu cầu và câu hỏi</tspan>
-        <tspan x="1020" dy="46">trong phạm vi dự án.</tspan>
+      <text x="1020" y="410" font-size="30">Tạo 1 trợ lý có tên</text>
+      <text x="1020" y="479" font-size="44" font-weight="400">Trợ lý [Tên dự án]</text>
+      <text x="1020" y="588" font-size="30">
+        <tspan x="1020">Ta quan sát, định hướng và giao tiếp</tspan>
+        <tspan x="1020" dy="46">còn lại để trợ lý lo...</tspan>
       </text>
     </g>
   </g>

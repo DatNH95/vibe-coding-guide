@@ -13,4 +13,12 @@ Khi người dùng gọi một số như “01”, xử lý đúng page trong b�
 
 | 05 | Khởi tạo Design System | Bố cục page 02, header/footer page 01 | `assets/page-05-content.svg`; object thứ năm trong `slides` |
 
-Page 06… sẽ được thêm khi có nội dung tương ứng. Footer và thanh điều khiển dùng `01/10`, `02/10`…; tổng tối thiểu 10, tự tăng bằng số page thực tế khi vượt 10. Navigation chỉ đi tới page đã có nội dung. SVG gốc không thay đổi.
+| 06 | Thành phần cần có của 1 Design System cơ bản | Header/footer page 01 | `assets/page-06-content.svg`; object thứ sáu trong `slides` |
+
+| 07 | Giao tiếp, quan sát và lại giao tiếp... | Header/footer page 01 | `assets/page-07-content.svg`; object thứ bảy trong `slides` |
+
+| 08 | Hand-off Tech | Header/footer page 01 | `assets/page-08-content.svg`; object thứ tám trong `slides` |
+
+| 09 | GitHub → Vercel — Đẩy code và kiểm tra chéo | Header/footer page 01 | `assets/page-09-content.svg`; object thứ chín trong `slides` |
+
+Page 10… sẽ được thêm khi có nội dung tương ứng. Footer và thanh điều khiển dùng `01/10`, `02/10`…; tổng tối thiểu 10, tự tăng bằng số page thực tế khi vượt 10. Navigation chỉ đi tới page đã có nội dung. SVG gốc không thay đổi.

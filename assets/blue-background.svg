@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="940 100 880 879" preserveAspectRatio="none">
+    <defs>
+      <clipPath id="page-02-blue-clip"><rect x="940" y="100" width="880" height="879"/></clipPath>
+      <linearGradient id="page-02-blue-gradient" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#00538F" stop-opacity=".55"/>
+        <stop offset=".5" stop-color="#29C4DD" stop-opacity=".24"/>
+        <stop offset="1" stop-color="#004581" stop-opacity=".5"/>
+      </linearGradient>
+      <radialGradient id="page-02-glow">
+        <stop stop-color="#30C7ED" stop-opacity=".5"/>
+        <stop offset="1" stop-color="#30C7ED" stop-opacity="0"/>
+      </radialGradient>
+      <radialGradient id="page-02-depth">
+        <stop stop-color="#00396F" stop-opacity=".65"/>
+        <stop offset="1" stop-color="#00396F" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <g clip-path="url(#page-02-blue-clip)" pointer-events="none">
+      <rect class="blue-gradient-motion" x="940" y="100" width="1760" height="879" fill="url(#page-02-blue-gradient)"/>
+      <g class="blue-glow-motion">
+        <ellipse cx="1740" cy="280" rx="560" ry="480" fill="url(#page-02-glow)"/>
+        <ellipse cx="1020" cy="950" rx="650" ry="560" fill="url(#page-02-depth)"/>
+        <g fill="none" stroke="white" stroke-opacity=".08" stroke-width="2">
+          <path d="M1120 80C1880 200 1100 850 1980 960"/>
+          <path d="M1220 80C1980 200 1200 850 2080 960"/>
+          <path d="M1320 80C2080 200 1300 850 2180 960"/>
+        </g>
+      </g>
+    </g>
+</svg>

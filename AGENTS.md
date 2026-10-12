@@ -1,5 +1,7 @@
 # Quy ước làm việc trong project
 
+- Box nền xanh dùng chung gradient, lớp sáng và đường cong chuyển động như PAGE 02. Dùng `assets/blue-background.svg` và CSS `.blue-gradient-motion`, `.blue-glow-motion`; không tạo hiệu ứng riêng cho từng page. Giữ màu nền và độ tương phản chữ, tôn trọng giảm chuyển động. Icon nhỏ giữ màu flat.
+
 - Đây là slider trình chiếu desktop 16:9, HTML/CSS/JavaScript thuần. Không có back-end, React/Next.js hoặc yêu cầu responsive mobile.
 - Người dùng gọi từng page bằng số hai chữ số: `01`, `02`, `03`… Khi người dùng nói “01” trong yêu cầu sửa nội dung, hiểu là page 01 và chỉ sửa page đó. Dùng bảng `PAGES.md` để xác định file tương ứng.
 - Thứ tự page theo danh sách `slides` trong `scripts/build-assets.cjs`. Không đổi số hoặc thứ tự các page hiện có nếu chưa được yêu cầu.
