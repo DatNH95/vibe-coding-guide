@@ -86,8 +86,8 @@ const slides = [{
   layers: [],
   motionGroups: ['page-06-title', 'page-06-prompt', 'page-06-kv', 'page-06-item-1', 'page-06-item-2', 'page-06-item-3', 'page-06-item-4', 'page-06-item-5', 'page-06-item-6', 'page-06-item-7', 'page-06-item-8', 'page-06-item-9']
 }, {
-  title: 'Giao tiếp, quan sát và lại giao tiếp...',
-  description: 'Giao tiếp, quan sát và lại giao tiếp...',
+  title: 'Giao tiếp, quan sát và tối ưu',
+  description: 'Giao tiếp, quan sát và tối ưu',
   svg: page07Svg,
   footer: { node: 5 },
   layers: [],
