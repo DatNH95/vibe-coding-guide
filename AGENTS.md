@@ -1,5 +1,7 @@
 # Quy ước làm việc trong project
 
+- Khi bỏ một phần nội dung, tự căn lại bố cục và khoảng cách của page để không để lại khoảng trống thừa; giữ phân cấp và nhịp spacing hiện có.
+
 - Box nền xanh dùng chung gradient, lớp sáng và đường cong chuyển động như PAGE 02. Dùng `assets/blue-background.svg` và CSS `.blue-gradient-motion`, `.blue-glow-motion`; không tạo hiệu ứng riêng cho từng page. Giữ màu nền và độ tương phản chữ, tôn trọng giảm chuyển động. Icon nhỏ giữ màu flat.
 
 - Đây là slider trình chiếu desktop 16:9, HTML/CSS/JavaScript thuần. Không có back-end, React/Next.js hoặc yêu cầu responsive mobile.
