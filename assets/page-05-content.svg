@@ -11,7 +11,7 @@
       </text>
       <rect x="100" y="490" width="780" height="250" rx="12" fill="#F3F7FC"/>
       <rect x="100" y="502" width="4" height="226" rx="2" fill="#0076BE"/>
-      <text x="132" y="542" font-size="28" fill="#0076BE">Quy trình chung</text>
+      <text x="132" y="542" font-size="28" fill="#0076BE">Triển khai</text>
       <text x="132" y="586" font-size="26" fill="#263C53">
         <tspan x="132">Khởi tạo Design System như cách chúng ta bắt đầu</tspan>
         <tspan x="132" dy="36">vẽ với Figma, điều này giúp Codex hiểu style</tspan>

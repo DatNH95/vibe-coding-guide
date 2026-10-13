@@ -2,7 +2,7 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const root = path.resolve(__dirname, '..');
-const minimumPageCount = 20;
+const minimumPageCount = 0;
 const originalSvg = fs.readFileSync(path.join(root, 'Silder 1.svg'), 'utf8');
 // Keep the exact header, footer and rules from page 01 for the new page.
 const frame = originalSvg.slice(0, originalSvg.indexOf('<mask'));
@@ -146,7 +146,7 @@ const slides = [{
   motionGroupDuration: 1200
 }];
 fs.mkdirSync(path.join(root, 'assets'), { recursive: true });
-const totalPages = Math.max(minimumPageCount, slides.length);
+const totalPages = slides.length;
 slides.forEach((slide, index) => {
   if (index === 0) return; // Preserve the original page 01 source; its footer is updated in the DOM.
   const page = String(index + 1).padStart(2, '0');

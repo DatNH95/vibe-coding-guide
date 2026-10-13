@@ -10,7 +10,7 @@
   const announcement = document.getElementById('announcement');
   const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)');
   const ns = 'http://www.w3.org/2000/svg';
-  const totalPages = Math.max(window.MINIMUM_PAGE_COUNT || 20, sources.length);
+  const totalPages = sources.length;
   let current = 0;
   let busy = false;
   let animations = [];
