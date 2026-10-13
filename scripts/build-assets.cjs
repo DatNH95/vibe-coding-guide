@@ -52,7 +52,7 @@ const slides = [{
   ]
 }, {
   title: 'Hiểu trước, làm sau',
-  description: 'Hiểu trước, làm sau. Mỗi người sẽ có cách để tự làm tốt công việc của mình theo cách riêng của họ. Quan sát, định hướng, giao tiếp. Claude, Codex, AI Studio. Không hiểu thì không thể làm tốt',
+  description: 'Hiểu trước, làm sau. Mỗi người sẽ có cách riêng để làm tốt công việc của họ. Quan sát, giao tiếp, kiểm thử. Claude, Codex, AI Studio. Không hiểu thì không thể làm tốt',
   svg: page02Svg,
   footer: { node: 5 },
   layers: [],
